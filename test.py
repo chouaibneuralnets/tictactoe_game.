@@ -1,0 +1,1 @@
+print("Le fichier tictactoe.py s'est bien exécuté !")
