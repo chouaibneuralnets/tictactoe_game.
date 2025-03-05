@@ -99,7 +99,7 @@ Le projet est structuré comme suit :
 Crédits et Remerciements
 ------------
 
-Ce projet a été réalisé par **Chouaib**.
+Ce projet a été réalisé par **Chegdati Chouaib**.
 
 ### Bibliothèques utilisées
 - `Pygame` → Interface graphique
