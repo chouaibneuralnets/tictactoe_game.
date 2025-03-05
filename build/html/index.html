@@ -1,105 +1,201 @@
+
+
 <!DOCTYPE html>
+<html class="writer-html5" lang="english" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<html lang="english" data-content_root="./">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic-Tac-Toe - Documentation &mdash; Readthedocs  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
-    <title>Readthedocs documentation &#8212; Readthedocs  documentation</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
-    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
-    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
-    <script src="_static/documentation_options.js?v=df973ab0"></script>
-    <script src="_static/doctools.js?v=9bcbadda"></script>
-    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=df973ab0"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-   
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
 
-  
-  
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
 
-  </head><body>
-  
-
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
           
-
-          <div class="body" role="main">
-            
-  <section id="readthedocs-documentation">
-<h1>Readthedocs documentation<a class="headerlink" href="#readthedocs-documentation" title="Link to this heading">¶</a></h1>
-<p>Add your content using <code class="docutils literal notranslate"><span class="pre">reStructuredText</span></code> syntax. See the
-<a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html">reStructuredText</a>
-documentation for details.</p>
-<div class="toctree-wrapper compound">
+          
+          <a href="#" class="icon icon-home">
+            Readthedocs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
 </div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Tic-Tac-Toe - Documentation</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#comment-jouer">Comment jouer ?</a></li>
+<li><a class="reference internal" href="#algorithme-minimax">Algorithme Minimax</a></li>
+<li><a class="reference internal" href="#structure-du-code">Structure du Code</a></li>
+<li><a class="reference internal" href="#credits-et-remerciements">Crédits et Remerciements</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Readthedocs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Tic-Tac-Toe - Documentation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="tic-tac-toe-documentation">
+<h1>Tic-Tac-Toe - Documentation<a class="headerlink" href="#tic-tac-toe-documentation" title="Link to this heading"></a></h1>
+<p>Bienvenue dans la documentation du jeu <strong>Tic-Tac-Toe</strong> développé avec <cite>Pygame</cite> et une intelligence artificielle utilisant l'algorithme <cite>Minimax</cite>.</p>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading"></a></h2>
+<p>Avant d'exécuter le jeu, assurez-vous d'avoir installé les dépendances requises.</p>
+<ol class="arabic simple">
+<li><p><strong>Installer Pygame</strong></p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">`bash</span>
+<span class="pre">pip</span> <span class="pre">install</span> <span class="pre">pygame</span>
+<span class="pre">`</span></code></p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Lancer le jeu</strong></p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">`bash</span>
+<span class="pre">python</span> <span class="pre">runner.py</span>
+<span class="pre">`</span></code></p>
+</section>
+<section id="comment-jouer">
+<h2>Comment jouer ?<a class="headerlink" href="#comment-jouer" title="Link to this heading"></a></h2>
+<p>Lorsque vous lancez le jeu, vous devez choisir votre rôle :</p>
+<ul class="simple">
+<li><p><strong>&quot;Play as X&quot;</strong> → Vous commencez en premier.</p></li>
+<li><p><strong>&quot;Play as O&quot;</strong> → L'IA commence en premier.</p></li>
+</ul>
+<p>### Interface du jeu
+Le jeu affiche un plateau de <strong>3x3</strong> où vous devez cliquer pour placer votre marque (<cite>X</cite> ou <cite>O</cite>). L'IA utilise l'algorithme <strong>Minimax</strong> pour jouer automatiquement.</p>
+<p>### Objectif
+L'objectif est d'aligner <strong>trois X ou trois O</strong> sur une ligne, une colonne ou une diagonale.</p>
+</section>
+<section id="algorithme-minimax">
+<h2>Algorithme Minimax<a class="headerlink" href="#algorithme-minimax" title="Link to this heading"></a></h2>
+<p>L'algorithme <cite>Minimax</cite> est utilisé pour permettre à l'IA de jouer de manière optimale.</p>
+<ol class="arabic simple">
+<li><p>L'IA analyse toutes les actions possibles sur le plateau.</p></li>
+<li><p>Elle évalue chaque action avec une fonction de score :
+- <strong>1</strong> → Victoire de <cite>X</cite>
+- <strong>-1</strong> → Victoire de <cite>O</cite>
+- <strong>0</strong> → Match nul</p></li>
+<li><p>Elle choisit le <strong>meilleur coup</strong> qui minimise les pertes et maximise les gains.</p></li>
+</ol>
+<p>Exemple de code :</p>
+<p><a href="#id1"><span class="problematic" id="id2">``</span></a><a href="#id3"><span class="problematic" id="id4">`</span></a>python
+def minimax(board):</p>
+<blockquote>
+<div><p>&quot;&quot;&quot;
+Retourne le meilleur mouvement possible pour le joueur courant.
+&quot;&quot;&quot;
+if terminal(board):</p>
+<blockquote>
+<div><p>return None</p>
+</div></blockquote>
+<p>current_player = player(board)
+best_value = -math.inf if current_player == X else math.inf
+best_move = None</p>
+<dl>
+<dt>for action in actions(board):</dt><dd><p>value = min_value(result(board, action)) if current_player == X else max_value(result(board, action))
+if (current_player == X and value &gt; best_value) or (current_player == O and value &lt; best_value):</p>
+<blockquote>
+<div><p>best_value = value
+best_move = action</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>return best_move</p>
+</div></blockquote>
+<p><a href="#id5"><span class="problematic" id="id6">``</span></a><a href="#id7"><span class="problematic" id="id8">`</span></a></p>
+</section>
+<section id="structure-du-code">
+<h2>Structure du Code<a class="headerlink" href="#structure-du-code" title="Link to this heading"></a></h2>
+<p>Le projet est structuré comme suit :</p>
+<dl class="simple">
+<dt>📂 <cite>tictactoe/</cite></dt><dd><p>├── <cite>runner.py</cite>  → Interface graphique avec <cite>Pygame</cite>
+├── <cite>tictactoe.py</cite>  → Logique du jeu et IA Minimax
+├── <cite>OpenSans-Regular.ttf</cite> → Police utilisée pour l'affichage</p>
+</dd>
+</dl>
+<p>### Fonctionnalités principales
+- 🎮 <strong>Interface Pygame</strong>
+- 🧠 <strong>IA avec Minimax</strong>
+- ✅ <strong>Détection de fin de partie</strong>
+- 🔄 <strong>Option Rejouer</strong></p>
+</section>
+<section id="credits-et-remerciements">
+<h2>Crédits et Remerciements<a class="headerlink" href="#credits-et-remerciements" title="Link to this heading"></a></h2>
+<p>Ce projet a été réalisé par <strong>Chouaib</strong>.</p>
+<p>### Bibliothèques utilisées
+- <cite>Pygame</cite> → Interface graphique
+- <cite>Math</cite> et <cite>Copy</cite> → Calculs pour l'algorithme Minimax</p>
+<p>Merci d'avoir joué à <strong>Tic-Tac-Toe</strong> 🎉 !</p>
+</section>
 </section>
 
 
+           </div>
           </div>
-          
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, chouaib.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="Main">
-        <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="#">Readthedocs</a></h1>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
 
-
-
-
-
-
-
-
-
-<search id="searchbox" style="display: none" role="search">
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</search>
-<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
-
-<div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="#">Documentation overview</a><ul>
-  </ul></li>
-</ul>
-</div>
-
-
-
-
-
-
-
-
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="footer">
-      &#169;2025, chouaib.
-      
-      |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.1</a>
-      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
-      
-      |
-      <a href="_sources/index.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
-
-    
-
-    
-  </body>
+</body>
 </html>
