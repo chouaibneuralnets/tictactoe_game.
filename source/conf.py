@@ -8,7 +8,7 @@
 
 project = 'Readthedocs'
 copyright = '2025, chouaib'
-author = 'chouaib'
+author = 'chegdati chouaib'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
